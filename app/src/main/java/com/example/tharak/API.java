@@ -32,7 +32,9 @@ public API(String Query){
                 .url("https://bing-image-search1.p.rapidapi.com/images/search?safeSearch=Off&q=" + Search + "%20bw%20gif")
                 .get()
                 .addHeader("x-rapidapi-host", "bing-image-search1.p.rapidapi.com")
-                .addHeader("x-rapidapi-key", "6f4ff1c519msh803b621e739e0a7p1c15f4jsndb57465a398e")
+                
+                //PRovide your own key here, I have removed mine
+                .addHeader("x-rapidapi-key", "your key here ")
                 .build();
 
         try {
